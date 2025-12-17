@@ -1,0 +1,370 @@
+/*--------------------------------------------------------------
+# Color Theme Override - Cyan & Electric Blue
+# Premium Modern Tech Theme
+--------------------------------------------------------------*/
+
+/* Primary accent color: Cyan (#00d4ff)
+   Secondary accent: Electric Blue (#5e7eff)
+   Tertiary accent: Purple (#a855f7) for highlights */
+
+/* Override all green colors to cyan/blue */
+
+/* Links */
+a {
+    color: #00d4ff !important;
+}
+
+a:hover {
+    color: #5e7eff !important;
+}
+
+/* Header Section */
+#header h2 {
+    color: #00d4ff !important;
+}
+
+#header h2 span {
+    color: #00d4ff !important;
+    border-bottom-color: #5e7eff !important;
+}
+
+/* Navigation */
+.nav-menu a i {
+    color: #00d4ff !important;
+}
+
+.nav-menu a:before {
+    background: linear-gradient(90deg, #00d4ff, #5e7eff) !important;
+}
+
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
+    color: #00d4ff !important;
+    background: rgba(0, 212, 255, 0.1) !important;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active>a i,
+.nav-menu li:hover>a i {
+    color: #5e7eff !important;
+}
+
+/* Social Links */
+#header .social-links a:hover {
+    background: #0099cc !important;
+}
+
+/* Mobile Navigation */
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
+    color: #00d4ff !important;
+}
+
+/* About Section */
+.about-me .content h3 {
+    color: #00d4ff !important;
+}
+
+.about-me .content ul i {
+    color: #00d4ff !important;
+}
+
+/* Counts */
+.counts .count-box i {
+    color: #00d4ff !important;
+}
+
+/* Skills */
+.skills .progress-bar {
+    background-color: #00d4ff !important;
+}
+
+/* Testimonials */
+.testimonials .owl-dot.active {
+    background-color: #00d4ff !important;
+}
+
+/* Resume */
+.resume .resume-item h4 {
+    color: #00d4ff !important;
+}
+
+.resume .resume-item::before {
+    background: #5e7eff !important;
+    border-color: #5e7eff !important;
+}
+
+/* Services */
+.services .icon-box .icon {
+    background: linear-gradient(135deg, #00d4ff, #5e7eff) !important;
+}
+
+.services .icon-box:hover .icon {
+    background: #fff !important;
+}
+
+.services .icon-box:hover .icon i {
+    color: #00d4ff !important;
+}
+
+.services .icon-box:hover .icon::before {
+    background: #00d4ff !important;
+}
+
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
+    color: #00d4ff !important;
+}
+
+/* Portfolio */
+.portfolio #portfolio-flters li.filter-active,
+.portfolio #portfolio-flters li:hover {
+    color: #00d4ff !important;
+}
+
+.portfolio .portfolio-info h4 {
+    color: #00d4ff !important;
+}
+
+/* Contact */
+.contact .info-box i {
+    color: #00d4ff !important;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    border-color: #00d4ff !important;
+}
+
+.theme-toggle .sun-icon {
+    color: #fbbf24 !important;
+}
+
+.theme-toggle .moon-icon {
+    color: #5e7eff !important;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    background: linear-gradient(135deg, #00d4ff, #5e7eff) !important;
+    box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4) !important;
+}
+
+.back-to-top:hover {
+    box-shadow: 0 8px 30px rgba(0, 212, 255, 0.5) !important;
+}
+
+/* Scroll Progress Bar */
+.scroll-progress {
+    background: linear-gradient(90deg, #00d4ff, #5e7eff, #a855f7) !important;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.5) !important;
+}
+
+/* Hero Enhancements - Gradient Background */
+#header::before {
+    background:
+        radial-gradient(circle at 20% 80%, rgba(0, 212, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(94, 126, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(168, 85, 247, 0.08) 0%, transparent 40%) !important;
+}
+
+/* Welcome Text */
+#header .welcome-text {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.2), rgba(94, 126, 255, 0.2)) !important;
+    border-color: rgba(0, 212, 255, 0.3) !important;
+    color: #00d4ff !important;
+}
+
+/* Tagline */
+#header .tagline::before {
+    background: linear-gradient(90deg, #5e7eff, transparent) !important;
+}
+
+/* Name Heading */
+#header h1 {
+    text-shadow: 0 0 40px rgba(0, 212, 255, 0.3) !important;
+}
+
+#header h1 a {
+    background: linear-gradient(135deg, #ffffff 0%, #dee2e6 50%, #00d4ff 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
+#header h1::after {
+    background: linear-gradient(90deg, #00d4ff, #5e7eff) !important;
+}
+
+/* Typing Effect */
+#header h2 .typing {
+    color: #00d4ff !important;
+}
+
+#header h2 .typing::after {
+    color: #00d4ff !important;
+}
+
+/* Navigation Glassmorphism */
+#header .nav-menu {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(0, 212, 255, 0.1) !important;
+}
+
+#header .nav-menu a:hover,
+#header .nav-menu .active>a {
+    background: rgba(0, 212, 255, 0.15) !important;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2) !important;
+}
+
+/* Particles */
+.particle {
+    background: rgba(0, 212, 255, 0.4) !important;
+}
+
+.particle:nth-child(2),
+.particle:nth-child(6),
+.particle:nth-child(10) {
+    background: rgba(94, 126, 255, 0.4) !important;
+}
+
+.particle:nth-child(4),
+.particle:nth-child(8) {
+    background: rgba(168, 85, 247, 0.4) !important;
+}
+
+/* Hero Decoration Rings */
+.hero-ring:nth-child(1) {
+    border-color: rgba(0, 212, 255, 0.2) !important;
+}
+
+.hero-ring:nth-child(2) {
+    border-color: rgba(94, 126, 255, 0.2) !important;
+}
+
+.hero-ring:nth-child(3) {
+    border-color: rgba(168, 85, 247, 0.2) !important;
+}
+
+/* Text Selection */
+::selection {
+    background: rgba(0, 212, 255, 0.3) !important;
+}
+
+::-moz-selection {
+    background: rgba(0, 212, 255, 0.3) !important;
+}
+
+/* Glow Text Effect */
+.glow-text {
+    animation: glow-cyan 2s ease-in-out infinite alternate !important;
+}
+
+@keyframes glow-cyan {
+    from {
+        text-shadow: 0 0 20px rgba(0, 212, 255, 0.3), 0 0 40px rgba(0, 212, 255, 0.1);
+    }
+
+    to {
+        text-shadow: 0 0 30px rgba(0, 212, 255, 0.5), 0 0 60px rgba(0, 212, 255, 0.2);
+    }
+}
+
+/* Info Box Glow */
+.info-box::before {
+    background: linear-gradient(135deg, #00d4ff, #5e7eff, #a855f7, #00d4ff) !important;
+}
+
+/* Icon Box Hover */
+.interests .icon-box::before,
+.services .icon-box::before {
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.1), transparent) !important;
+}
+
+/* Portfolio Card Hover */
+.portfolio-wrap::before {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, transparent 50%) !important;
+}
+
+/* ============ LIGHT MODE ============ */
+
+[data-theme="light"] {
+    --accent-primary: #0099cc !important;
+    --accent-secondary: #4361ee !important;
+}
+
+[data-theme="light"] a {
+    color: #0099cc !important;
+}
+
+[data-theme="light"] a:hover {
+    color: #4361ee !important;
+}
+
+[data-theme="light"] #header h1 a {
+    background: linear-gradient(135deg, #1a1a2e 0%, #343a40 50%, #0099cc 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
+[data-theme="light"] #header .welcome-text {
+    background: linear-gradient(135deg, rgba(0, 153, 204, 0.15), rgba(67, 97, 238, 0.15)) !important;
+    color: #0099cc !important;
+    border-color: rgba(0, 153, 204, 0.3) !important;
+}
+
+[data-theme="light"] #header::before {
+    background:
+        radial-gradient(circle at 20% 80%, rgba(0, 153, 204, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(67, 97, 238, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(168, 85, 247, 0.1) 0%, transparent 40%) !important;
+}
+
+[data-theme="light"] .nav-menu a:hover,
+[data-theme="light"] .nav-menu .active>a {
+    background: rgba(0, 153, 204, 0.15) !important;
+    color: #0099cc !important;
+}
+
+[data-theme="light"] .particle {
+    background: rgba(0, 153, 204, 0.3) !important;
+}
+
+[data-theme="light"] .particle:nth-child(2),
+[data-theme="light"] .particle:nth-child(6),
+[data-theme="light"] .particle:nth-child(10) {
+    background: rgba(67, 97, 238, 0.3) !important;
+}
+
+[data-theme="light"] .particle:nth-child(4),
+[data-theme="light"] .particle:nth-child(8) {
+    background: rgba(168, 85, 247, 0.3) !important;
+}
+
+[data-theme="light"] .hero-ring:nth-child(1) {
+    border-color: rgba(0, 153, 204, 0.3) !important;
+}
+
+[data-theme="light"] .hero-ring:nth-child(2) {
+    border-color: rgba(67, 97, 238, 0.3) !important;
+}
+
+[data-theme="light"] .hero-ring:nth-child(3) {
+    border-color: rgba(168, 85, 247, 0.3) !important;
+}
+
+[data-theme="light"] ::selection {
+    background: rgba(0, 153, 204, 0.3) !important;
+    color: #1a1a2e !important;
+}
+
+[data-theme="light"] .back-to-top {
+    background: linear-gradient(135deg, #0099cc, #4361ee) !important;
+}
+
+[data-theme="light"] .theme-toggle {
+    border-color: #0099cc !important;
+}
